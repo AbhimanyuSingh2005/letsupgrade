@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+*::selection{
+    background-color: rgba(247, 37, 0, 0.536);
+    color: white;
+}
+#container{
+    height: 100vh;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 2px rgba(198, 198, 198, 0.244);
+}
+.nav-logo{
+    height: 54px;
+    padding: 4px 48px 4px;
+}
+.nav-list{
+    padding-right: 48px;
+    font-size: 16px;
+}
+.nav-list button{
+    padding: 8px 15px;
+    border-radius: 30px ;
+    font-size: 16px;
+    border: solid 0.25px;
+    transition: 0.5s;
+    
+}
+.btn1{
+    background-color: black ;
+    color: white;
+}
+.btn2:hover{
+    background-color: black ;
+    color: white;
+    
+}
+
+.nav-list *{
+    margin-left: 20px;
+}
+
+#main{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.blinkers{
+    visibility: hidden;
+    font-size: 20px;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0% {visibility: visible;}
+    50% {visibility: hidden;}
+}
+.num{
+    display: flex;
+    color: white ;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.num p {
+    background-color: black ;
+    margin: 15px 5px;
+    padding: 8px 14px;
+    border-radius: 20% ;
+}
+.head{
+    margin: 20px 0;
+    padding: 0 300px ;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.desc{
+    margin-top: 24px ;
+    font-weight: 700;
+}
+.btn3{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-size: 24px;
+    padding: 13px 30px;
+}
